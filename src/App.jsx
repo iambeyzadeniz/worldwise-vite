@@ -15,7 +15,7 @@ const BASE_URL = "http://localhost:8000"
 function App(props) {
 
   const [cities ,setCities] = useState({});
-  const [isLoading , setIsLoading] = useState(fale);
+  const [isLoading , setIsLoading] = useState(false);
 
 useEffect (function() {
   async function fetchCities(){
